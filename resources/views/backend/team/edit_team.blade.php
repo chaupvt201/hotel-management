@@ -23,7 +23,7 @@
 								<div class="card"> 
                                     <form action="{{ route('team.update')}}" method="post" enctype="multipart/form-data"> 
                                         @csrf  
-                                        <input type="hidden" name="id" value="{{ $team->id }}" > 
+                                        <input type="hidden" name="id" value="{{ $team->id }}" />
 
 									<div class="card-body">
 										<div class="row mb-3">
